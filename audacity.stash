@@ -4,9 +4,7 @@
 # Summary
 
 
-# How To
-@
-@ how-to
+# Commands
 
 
 ### Audio - Insert - Silence
@@ -85,8 +83,26 @@ Or
 <cb>Menu:
 
 File
-Export
-Export as WAV
+... Export
+... Export as WAV<>
+
+
+
+### Label - Add
+
+Key:
+
+<cb>Command ⌘ + B<>
+
+or
+
+<cb>Menu:
+
+Edit
+... Labels
+... Add Label At Section<>
+@
+@ mark, tag, create
 
 
 
@@ -111,6 +127,62 @@ Key:
 Key:
 
 <cb>Command ⌘ + E<>
+
+
+
+# How To
+@
+@ how-to
+
+
+
+### Voice Audio - Process - Recommendation 1
+
+LN:
+
+<card>L Limit
+N Normalize<>
+
+Limit:
+
+<in-2>Effect -> Filter Curve EQ<>
+
+Normalize:
+
+<in-2>Effects -> Amplify
+
+To -1 DB<>
+
+
+
+### Voice Audio - Process - Recommendation 2
+
+ENCN:
+
+<card>E EQ (Equalize)
+N Normalize
+C Compress
+N Normalize<>
+
+Equalize:
+
+<in-2>Effect -> Filter Curve EQ<>
+
+Normalize:
+
+<in-2>Effects -> Amplify
+
+To 0 DB<>
+
+Compress:
+
+<in-2>Effects -> Compressor<>
+
+Normalize
+
+<in-2>Effects -> Amplify
+
+To -3 DB<>
 
 
 
