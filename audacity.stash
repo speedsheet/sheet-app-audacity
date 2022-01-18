@@ -9,16 +9,16 @@
 
 ### Audio - Insert - Silence
 
-<cb>Menu:
+Menu:
 
-Generate
-Silence<>
+<cb>Generate
+-> Silence<>
 
 
 
 ### Audio - Play
 
-Key:
+Keyboard:
 
 <cb>SPACE<>
 
@@ -26,7 +26,7 @@ Key:
 
 ### Audio - Record
 
-Key:
+Keyboard:
 
 <cb>R<>
 
@@ -34,7 +34,7 @@ Key:
 
 ### Audio - Stop Recording
 
-Key:
+Keyboard:
 
 <cb>Space<>
 
@@ -42,15 +42,15 @@ Key:
 
 ### Cursor - Move To - Track Beginning
 
+Keyboard:
+
 <cb>J<>
 
-Or
+Menu:
 
-<cb>Menu:
-
-Transport
-Cursor To
-Track Start<>
+<cb>Transport
+-> Cursor To
+-> Track Start<>
 @
 @ Start
 
@@ -58,7 +58,7 @@ Track Start<>
 
 ### Cursor - Move To - Track End
 
-Key:
+Keyboard:
 
 <cb>K<>
 
@@ -74,7 +74,7 @@ Track End<>
 
 ### File - Export - To Wav
 
-Key:
+Keyboard:
 
 <cb>Command ⌘ + Shift + E<>
 
@@ -90,7 +90,7 @@ File
 
 ### Label - Add
 
-Key:
+Keyboard:
 
 <cb>Command ⌘ + B<>
 
@@ -108,7 +108,7 @@ Edit
 
 ### Select - All
 
-Key:
+Keyboard:
 
 <cb>Command ⌘ + A<>
 
@@ -116,7 +116,7 @@ Key:
 
 ### Zoom - View All
 
-Key:
+Keyboard:
 
 <cb>Command ⌘ + F<>
 
@@ -124,9 +124,41 @@ Key:
 
 ### Zoom - View Selection
 
-Key:
+Keyboard:
 
 <cb>Command ⌘ + E<>
+
+
+
+# Effects
+
+
+
+### Effect - Amplify
+
+Menu:
+
+<card>Effect
+-> Amplify<>
+
+<card>Set ±dB Level<>
+
+Increases or decreases the audio volume.
+@
+@ level, volume, increase, decrease
+
+
+
+### Effect - Normalize
+
+Menu:
+
+<card>Effect
+-> Normalize<>
+
+<card>Set Target dB Level (0 dB = 100%)<>
+@
+@ level, autolevel, volume
 
 
 
